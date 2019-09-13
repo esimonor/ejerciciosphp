@@ -6,9 +6,12 @@
     <body>
 
         <?php
-            $puertas = 4;
+            $puertas = 1;
             for($pisos=1; $pisos <=5; $pisos++){
-            echo "Piso ",$pisos," puertas ",$puertas,"<br>";
+                for($puertas=1; $puertas<5; $puertas++){
+                echo "Piso ",$pisos," puertas ",$puertas,"<br>";
+                }
+                echo "<br>";
             }
         ?>
 
